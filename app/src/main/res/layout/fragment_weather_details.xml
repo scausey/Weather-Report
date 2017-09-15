@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvCountryName"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvTempMax"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp max"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvTempMin"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp min"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvRain"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rain"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvWindSpeed"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind speed"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvClouds"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clouds"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
